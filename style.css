@@ -1,0 +1,287 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+.logo{
+	float:left;
+	font-family:impact;
+	font-size:50px;
+	margin-top:30px;
+}
+	
+.hero-text h1{
+    font-family:impact;
+	font-size:60px;
+	text-shadow: 3px 3px black;
+    position:relative;
+    display: inline-block;
+ }
+	
+	
+
+body{
+	background-color:lightblue;
+}
+	
+#search{
+	
+padding: 2px 0px 2px 10px;
+	float:right;
+	border-color:#287EC7;
+	margin-bottom:100px;
+	position:relative;
+	top:20px;
+	right:30px;
+}
+	
+
+body{
+  background-color: black;
+	
+}
+
+.container{
+	width: 1140px;
+	min-width:1140px;
+	margin:auto; 
+}
+
+
+nav{
+    font-family:impact;
+	background-color:#A9A9A9;
+	list-style:none;
+    text-align:center;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+	border:2px solid white;
+	background-color:#A9A9A9;
+	text-decoration: none;
+	color:white;
+	}
+
+nav a:hover{
+    display:inline-block;
+    padding:10px;
+	border:2px solid white;
+	background-color:white;
+	text-decoration: none;
+	color:black;
+	}
+nav li a.active {
+    background-color: white;
+	color:black;
+	
+	
+	
+	}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-family:impact;
+	font-size:100px;
+	color:white;
+	text-shadow: 4px 3px #696969;
+	
+	}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.hero-image {
+	margin-top:30px;
+    height: 50%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+	
+	
+    height:300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url("https://i.ytimg.com/vi/Ptcp9Tu4rW8/maxresdefault.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+}
+
+
+.posts{
+	margin-top:50px;
+	width:75%;
+	
+	
+	}
+
+h3{
+	font-size:30px;
+	text-transform: uppercase;
+	font-family:impact;
+	margin-top:50px;
+	width:75%;
+	background-color:white;
+	margin-bottom:30px;
+	font-family:impact;
+	
+	}
+
+h4 {
+	margin-bottom:20px;
+	color:gray;
+	font-style: italic;
+}
+.post1, .post2, .post3 {
+	
+	
+	background-color:white;
+	margin-bottom:50px;
+	 line-height: 145%;
+	padding:20px;
+	
+	}
+.posts p::first-letter{
+	
+	font-size:200%;
+	
+	}
+.posts p{
+	font-style: normal;
+	color:black;
+	}
+
+.side-nav{
+	float:right;
+
+	background-color:#A9A9A9;
+	width:23%;
+	
+}
+
+.side-nav li{
+	margin:30px;
+		list-style: none;
+		
+}
+.side-nav li a{
+	color:white;
+	text-decoration: none;
+	font-family:impact;
+	
+	}
+	
+.footer-links{
+	
+	background-color:#A9A9A9;
+	padding:30px;
+}
+.footer-links ul{
+	text-align:center;
+	 list-style-type: none;
+
+	 }
+.footer-links li{
+	margin-right:20px;
+	display: inline-block;
+	list-style: none;
+	}
+.footer-links a{
+text-decoration: none;
+color:black;
+}	
+	
+.copyright {
+	background-color:#A9A9A9;
+	text-align:center;
+	padding-top:10px;
+	padding-right:20px;
+	}
+	
+	
+	
+	/*GRID*/
+
+.grid {
+		margin-top:50px; margin-bottom:50px;
+        display: grid;
+		grid-gap: 20px;
+		grid-template-columns: repeat(4, auto);
+		
+		justify-content: center;
+        color: #444;
+    }
+.grid p {
+	font-size:15px;
+	color:white;
+}
+    .raamat {
+		
+	   background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+
+    }
+	
+.kontakt h1 {
+
+		margin-top:50px;
+	
+}
+.kontakt p {
+	margin-top:20px;
+	
+}
+.space{
+	margin-bottom:560px;
+}
+
+
+ 
+ .googlemap {
+	 
+	 float:right;
+}
+
+
+.login{
+	text-align:center;
+	margin-top:50px;
+
+
+}
+.login [for="parool"] {
+	margin-right:43px;
+	}
+
+
+
+.login button {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+
+	
